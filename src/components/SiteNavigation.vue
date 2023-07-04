@@ -90,6 +90,7 @@ const addCity = () => {
 };
 
 const modalActive = ref(null);
+
 const toggleModal = () => {
   modalActive.value = !modalActive.value;
 };
